@@ -15,4 +15,8 @@ package com.github.philipealves.dojo.jokenpo;
  * empata com Papel e ganha de Pedra
  */
 public class JokenpoDojo {
+
+    public String jogar(String string, String string2) {
+        return "EMPATA";
+    }
 }
