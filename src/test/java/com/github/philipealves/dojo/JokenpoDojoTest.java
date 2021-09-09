@@ -28,10 +28,10 @@ public class JokenpoDojoTest {
         Assert.assertEquals("EMPATA", jokenpo.jogar("TESOURA", "TESOURA"));
     }
 
-//     @Test
-//     public void papel_empata_com_papel() {
-//         Assert.fail();
-//     }
+    @Test
+    public void papel_empata_com_papel() {
+        Assert.assertEquals("EMPATA", jokenpo.jogar("PAPEL", "PAPEL"));
+    }
 
 //     @Test
 //     public void pedra_ganha_de_tesoura() {
